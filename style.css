@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+
+}
+body{
+    height: 100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #000, #782323);
+}
+
+.calculator{
+    border: 2px solid #9febdd;
+    padding: 20px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5) ;
+
+}
+
+input{
+    width:320px;
+    border:#000;
+    background: transparent;
+    padding: 20px;
+    margin:10px;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: azure;
+
+}
+
+input::placeholder{
+    color: azure;
+}
+button{
+    border:none;
+    height: 60px;
+    width:60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: none;
+    color: azure;
+    font-size: 27px;
+    box-shadow: -8px -8px 15px rgba(184, 238, 249, 0.2);
+    cursor: pointer;
+}
+.equalBtn{
+    background-color: rgb(0, 255, 174);
+}
+.operator{
+    color: aquamarine;
+}
